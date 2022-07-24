@@ -1,4 +1,46 @@
+*{
+    background-color: burlywood;
+}
+
 p{
     color: salmon;
 }
 
+p:hover{
+    color: aqua;
+}
+
+p::first-letter{
+    color: darkgreen;
+}
+
+div p{
+    color: brown;
+}
+
+div p:nth-child(1){
+    color: blue;
+}
+
+::placeholder{
+    color: blueviolet;
+}
+
+.container{
+    display: flex;
+    background:red;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+.item{
+    width: 30px;
+    height: 30px;
+    background-color: blueviolet;
+    
+}
+
+.container .item:nth-child(2n + 1){
+    background-color: aqua;
+}

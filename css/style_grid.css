@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    height: 500px;
+    background-color: burlywood;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 0.5px solid slateblue;
+    margin-top: 10%;
+    position: relative;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card img:nth-child(2){
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30%;
+    border-radius: 50%;
+}
+
+.card p{
+    text-align: center;
+    color: slateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+
+}
+
+.follow{
+    background-color: slateblue;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.card p a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+.card p:nth-child(4){
+    color: beige;
+    font-size: 18px;
+    padding: 10px;
+}
