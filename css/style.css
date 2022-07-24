@@ -1,0 +1,23 @@
+*{
+    background: papayawhip;
+}
+
+h1 {
+    background-color:crimson;
+}
+
+div p{
+    color:brown;
+}
+
+div > div{
+    background: plum;
+}
+
+p + section{
+    color: crimson;
+}
+
+div ~ p{
+    color: aqua;
+}
